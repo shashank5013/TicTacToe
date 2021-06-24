@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/info_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAYER X Turn"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"/>
+
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+        <Button android:id="@+id/btn1" style="@style/ButtonStyle"/>
+        <Button android:id="@+id/btn2" style="@style/ButtonStyle"/>
+        <Button android:id="@+id/btn3" style="@style/ButtonStyle"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+        <Button android:id="@+id/btn4" style="@style/ButtonStyle"/>
+        <Button android:id="@+id/btn5" style="@style/ButtonStyle"/>
+        <Button android:id="@+id/btn6" style="@style/ButtonStyle"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+        <Button android:id="@+id/btn7" style="@style/ButtonStyle"/>
+        <Button android:id="@+id/btn8" style="@style/ButtonStyle"/>
+        <Button android:id="@+id/btn9" style="@style/ButtonStyle"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="RESET"
+        android:textSize="24sp"/>
+
+
+</LinearLayout>
