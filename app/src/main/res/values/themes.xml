@@ -16,21 +16,25 @@
 
 <!--    Button style-->
     <style name="ButtonStyle">
-        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
         <item name="android:gravity">center</item>
-        <item name="backgroundTint">#C1BDBD</item>
-        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">@color/teal_200</item>
         <item name="android:textSize">70sp</item>
         <item name="android:layout_marginEnd">5dp</item>
     </style>
 
     <style name="LinearLayoutStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_height">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:orientation">horizontal</item>
         <item name="showDividers">middle</item>
+    </style>
+
+    <style name="Theme.TicTacToe.PopMe">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 </resources>

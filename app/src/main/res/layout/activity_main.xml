@@ -12,7 +12,7 @@
         android:id="@+id/info_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PLAYER X Turn"
+        android:text="@string/first_turn"
         android:layout_gravity="center_horizontal"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -21,21 +21,89 @@
 
 
     <LinearLayout style="@style/LinearLayoutStyle">
-        <Button android:id="@+id/btn1" style="@style/ButtonStyle"/>
-        <Button android:id="@+id/btn2" style="@style/ButtonStyle"/>
-        <Button android:id="@+id/btn3" style="@style/ButtonStyle"/>
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:gravity="center"
+            android:textSize="70sp"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="70sp"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:gravity="center"
+            android:textSize="70sp"/>
+
+
     </LinearLayout>
 
     <LinearLayout style="@style/LinearLayoutStyle">
-        <Button android:id="@+id/btn4" style="@style/ButtonStyle"/>
-        <Button android:id="@+id/btn5" style="@style/ButtonStyle"/>
-        <Button android:id="@+id/btn6" style="@style/ButtonStyle"/>
-    </LinearLayout>
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:gravity="center"
+            android:textSize="70sp"/>
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="70sp"/>
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="70sp"/>
 
+
+    </LinearLayout>
     <LinearLayout style="@style/LinearLayoutStyle">
-        <Button android:id="@+id/btn7" style="@style/ButtonStyle"/>
-        <Button android:id="@+id/btn8" style="@style/ButtonStyle"/>
-        <Button android:id="@+id/btn9" style="@style/ButtonStyle"/>
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:gravity="center"
+            android:textSize="70sp"/>
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:gravity="center"
+            android:textSize="70sp"/>
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:gravity="center"
+            android:textSize="70sp"/>
+
+
     </LinearLayout>
 
 
@@ -45,8 +113,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:text="RESET"
-        android:textSize="24sp"/>
+        android:layout_marginBottom="16dp"
+        android:text="@string/reset_btn"
+        android:textSize="24sp"
+        android:backgroundTint="#4496dd"/>
 
 
 </LinearLayout>

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">TicTacToe</string>
+
+    <!--    Strings for game logic-->
+    <string name="first_turn">Player 1 Turn</string>
+    <string name="second_turn">Player 2 Turn</string>
+    <string name="first_won">Player 1 Won</string>
+    <string name="second_won">Player 2 Won</string>
+    <string name="reset_btn">RESET</string>
+    <string name="game_drawn">Game Drawn</string>
+
 </resources>
